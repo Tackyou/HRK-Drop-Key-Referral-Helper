@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HRK tlk.io Autoref Helper
 // @namespace    HRK
-// @version      0.4
+// @version      0.5
 // @description  insert your ref link at yourref, go to https://tlk.io/hrk, enable script, let it run!
 // @author       Tackyou
 // @match        *tlk.io/hrk*
@@ -46,9 +46,9 @@ function letsgo(data){
     $('#chat dl dd a').each(function(){
         var url = $(this).attr('href');
         if($.inArray(url, data.alreadyOpened) == -1 && url.indexOf('http://www.hrkgame.com/profile/referral/dropkey?ref=') > -1){
+            data.alreadyOpened.push(url);
             setTimeout( function(){
                 console.log('[HRK tlk.io] Opening ... ' + url);
-                data.alreadyOpened.push(url);
                 data.helper.location.href = url;
             }, time);
             time += 2000;
