@@ -13,7 +13,7 @@ INSTRUCTIONS:
 
 5) let it run!
 
-**Confused? New to userscripts? Read this: **
+**Confused? New to userscripts? Read this:**
 
 How can I install a userscript?
 
