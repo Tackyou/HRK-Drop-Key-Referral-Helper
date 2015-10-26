@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HRK tlk.io Autoref Helper
 // @namespace    HRK
-// @version      0.3
+// @version      0.4
 // @description  insert your ref link at yourref, go to https://tlk.io/hrk, enable script, let it run!
 // @author       Tackyou
 // @match        *tlk.io/hrk*
@@ -13,6 +13,10 @@
 // ==/UserScript==
 
 var yourref = 'http://www.hrkgame.com/profile/referral/dropkey?ref=96dcc6a2ee97f37';
+// don't touch below
+// please don't alter the intervals you don't gain anything with that you just disturb people
+// thanks and enjoy
+console.log('[HRK tlk.io] Bot is running, please calm down and wait a moment it will start in some secs');
 var data = new prepare();
 $(function(){
     setTimeout(function(){letsgo(data)}, 2000);
@@ -35,10 +39,9 @@ function prepare() {
 }
 
 function letsgo(data){
-    console.log('[HRK tlk.io] Start');
-    $('#message_body').val('Help me:' + yourref);
+    $('#message_body').val('Help me: ' + yourref);
     $('form#new_message').submit();
-    console.log('[HRK tlk.io] Link posted');
+    console.log('[HRK tlk.io] Your ref was posted in chat (if not it will be on next cycle)');
     var time = 2000;
     $('#chat dl dd a').each(function(){
         var url = $(this).attr('href');
