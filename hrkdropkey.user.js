@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         HRK tlk.io Autoref Helper
 // @namespace    HRK
-// @version      0.1
+// @version      0.2
 // @description  insert your ref link at yourref, go to https://tlk.io/hrk, enable script, let it run!
 // @author       Tackyou
 // @match        *tlk.io/hrk*
+// @license      https://raw.githubusercontent.com/Tackyou/HRK-Drop-Key-Referral-Helper/master/LICENSE
+// @supportURL   https://github.com/Tackyou/HRK-Drop-Key-Referral-Helper/issues
+// @updateURL    https://raw.githubusercontent.com/Tackyou/orlygiftHRK-Drop-Key-Referral-Helper/master/hrkdropkey.user.js
+// @downloadURL  https://raw.githubusercontent.com/Tackyou/HRK-Drop-Key-Referral-Helper/master/hrkdropkey.user.js
 // @grant        none
 // ==/UserScript==
 
