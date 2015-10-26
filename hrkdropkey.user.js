@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HRK tlk.io Autoref Helper
 // @namespace    HRK
-// @version      0.5
+// @version      0.6
 // @description  insert your ref link at yourref, go to https://tlk.io/hrk, enable script, let it run!
 // @author       Tackyou
 // @match        *tlk.io/hrk*
@@ -12,7 +12,12 @@
 // @grant        none
 // ==/UserScript==
 
+// insert your ref link here
 var yourref = 'http://www.hrkgame.com/profile/referral/dropkey?ref=96dcc6a2ee97f37';
+// you can change the message here, make sure you keep ' + yourref + ' included thats where your ref gets inserted in the message
+var message = 'Help me: ' + yourref + ' will re-click all! -- AUTOMATIC BOT GET IT HERE: https://github.com/Tackyou/HRK-Drop-Key-Referral-Helper';
+////////////////////
+////////////////////
 // don't touch below
 // please don't alter the intervals you don't gain anything with that you just disturb people
 // thanks and enjoy
@@ -39,7 +44,7 @@ function prepare() {
 }
 
 function letsgo(data){
-    $('#message_body').val('Help me: ' + yourref);
+    $('#message_body').val(message);
     $('form#new_message').submit();
     console.log('[HRK tlk.io] Your ref was posted in chat (if not it will be on next cycle)');
     var time = 2000;
