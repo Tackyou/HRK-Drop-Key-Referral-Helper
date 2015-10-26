@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HRK tlk.io Autoref Helper
 // @namespace    HRK
-// @version      0.2
+// @version      0.3
 // @description  insert your ref link at yourref, go to https://tlk.io/hrk, enable script, let it run!
 // @author       Tackyou
 // @match        *tlk.io/hrk*
@@ -36,7 +36,7 @@ function prepare() {
 
 function letsgo(data){
     console.log('[HRK tlk.io] Start');
-    $('#message_body').val(yourref);
+    $('#message_body').val('Help me:' + yourref);
     $('form#new_message').submit();
     console.log('[HRK tlk.io] Link posted');
     var time = 2000;
