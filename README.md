@@ -1,10 +1,14 @@
 # HRK-Drop-Key-Referal-Helper
 hrkgame.com drop key auto ref helper
 
-insert your ref link at yourref
+INSTRUCTIONS:
 
-go to https://tlk.io/hrk
+1) insert your ref link at yourref
 
-enable script
+2) go to https://tlk.io/hrk
 
-let it run!
+3) enable script
+
+4) allow popups
+
+5) let it run!
