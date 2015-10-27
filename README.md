@@ -1,7 +1,11 @@
 # HRK-Drop-Key-Referal-Helper
 hrkgame.com drop key auto ref helper
 
-INSTRUCTIONS:
+**Need some help using your refs? Let this script click the button for you:**
+
+https://github.com/Tackyou/HRK-Autojoin
+
+**INSTRUCTIONS:**
 
 1) insert your ref link at yourref
 
