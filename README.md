@@ -1,5 +1,16 @@
 # HRK-Drop-Key-Referal-Helper
 hrkgame.com drop key auto ref helper
+.
+
+.
+
+**This script has no use anymore. They changed the system.**
+
+.
+
+.
+
+.
 
 **Need some help using your refs? Let this script click the button for you:**
 
